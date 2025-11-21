@@ -1,0 +1,25 @@
+11:08:14 **** Incremental Build of configuration Debug for project LED_control_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/repo/my_project/5_my_work/1_LED_control/LED_control/export/LED_control/sw/LED_control/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: LED_control_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/repo/my_project/5_my_work/1_LED_control/LED_control/export/LED_control/sw/LED_control/standalone_domain/bsplib/lib -o "LED_control_app.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: LED_control_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size LED_control_app.elf  |tee "LED_control_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28685	   1456	  22960	  53101	   cf6d	LED_control_app.elf
+'Finished building: LED_control_app.elf.size'
+' '
+
+11:08:15 Build Finished (took 879ms)
+

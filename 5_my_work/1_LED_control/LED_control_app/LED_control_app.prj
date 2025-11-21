@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="LED_control_app" location="C:/repo/my_project/5_my_work/1_LED_control/LED_control_app" platform="C:/repo/my_project/5_my_work/1_LED_control/LED_control/export/LED_control/LED_control.xpfm" platformUID="xilinx:zybo-z7-20::0.0(custom)" systemProject="LED_control_app_system" sysConfig="LED_control" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="cccb2db5c3e45adb93de3058863e9b7e">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.319793620">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1306524847" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,5 @@
+timestamp=[2025-11-21 11:20:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.004, duration_ms=4, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-11-21 11:20:11], mode=WORKBENCH_START, duration=0:00:09.017, duration_ms=9017, data={}
+timestamp=[2025-11-21 11:20:12], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.078, duration_ms=78, data={}
+timestamp=[2025-11-21 11:24:10], mode=PLATFORM_GENERATION, duration=0:00:13.400, duration_ms=13400, data={name=soc_pmod}
+timestamp=[2025-11-21 11:26:56], mode=BUILD, duration=0:00:00.805, duration_ms=805, data={name=pmod_control, configuration=Debug, clean_build=false}
